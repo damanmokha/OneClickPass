@@ -7,13 +7,10 @@
 
 import React from 'react';
 import {SafeAreaView, Text} from 'react-native';
+import AppNavigator from './src/AppNavigator';
 
 function App() {
-  return (
-    <SafeAreaView>
-      <Text>Hello World</Text>
-    </SafeAreaView>
-  );
+  return <AppNavigator />;
 }
 
 export default App;
